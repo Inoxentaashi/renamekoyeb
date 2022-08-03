@@ -53,7 +53,7 @@ async def start(client, message):
            InlineKeyboardButton('🔮 ᴏᴛʜᴇʀ ʙᴏᴛs 🔮', url='https://t.me/robo_glitch'),
            InlineKeyboardButton('🍂 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/hddubhub4uhelp')
            ],[
-           InlineKeyboardButton('❤ Aʙᴏᴜᴛ', callback_data='about'),
+           InlineKeyboardButton('🏆 Aʙᴏᴜᴛ', callback_data='about'),
            InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help')
            ]]
           )
@@ -87,14 +87,15 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""🌹 Hᴇʏ ʙᴀʙʏ {query.from_user.mention} \n𝙸'𝚖 𝙰 𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛 𝙱𝙾𝚃 𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 & 𝙲𝚞𝚜𝚝𝚘𝚖 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝚂𝚞𝚙𝚙𝚘𝚛𝚝! """,
+            text=f"""🌹 Hᴇʏ ʙᴀʙʏ {query.from_user.mention} \nI'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇ + ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ Sᴜᴘᴘᴏʀᴛ ! 
+            Pᴏᴡᴇʀᴇᴅ ʙʏ ❗ @ʀᴏʙᴏ_ɢʟɪᴛᴄʜ""",
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("😈 Dᴇᴠᴇʟᴏᴘᴇʀ 😈", callback_data='dev')                
                 ],[
                 InlineKeyboardButton('🔮 ᴏᴛʜᴇʀ ʙᴏᴛs 🔮', url='https://t.me/robo_glitch'),
                 InlineKeyboardButton('🍂 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/hddubhub4uhelp')
                 ],[
-                InlineKeyboardButton('❤ Aʙᴏᴜᴛ', callback_data='about'),
+                InlineKeyboardButton('🏆 Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help')
                 ]]
                 )
@@ -110,7 +111,7 @@ async def cb_handler(client, query: CallbackQuery):
                InlineKeyboardButton("📈 Bᴏᴛs ʟɪᴠᴇ sᴛᴀᴛᴜs 📍", url='https://t.me/futurebackups/754')
                ],[
                InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data = "close"),
-               InlineKeyboardButton("◂ Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton("◂  Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
@@ -125,7 +126,7 @@ async def cb_handler(client, query: CallbackQuery):
                InlineKeyboardButton("💀ᴇᴠɪʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ💀", url="https://t.me/EvilGroupManagerBot")
                ],[
                InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data = "close"),
-               InlineKeyboardButton("◂ Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton("◂  Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
@@ -139,7 +140,7 @@ async def cb_handler(client, query: CallbackQuery):
                InlineKeyboardButton("📁 ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 📁", url="https://t.me/CopyrightFreeBot")
                ],[
                InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data = "close"),
-               InlineKeyboardButton("◂ Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton("◂  Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
