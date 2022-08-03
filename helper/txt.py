@@ -51,17 +51,17 @@ class mr(object):
 •> /delthumb use this command and delete your old thumbnile.
 •> /viewthumb use this command view your current thumbnile.
 
-📑 <b><u>✧HOW TO SET CUSTOM CAPTION✧</u></b>
-•> /set_caption - set a custom caption
-•> /see_caption - see your custom caption
-•> /del_caption - delete custom caption
+📑 <b><u>✧HOW TO SET CAPTION✧</u></b>
+•> /set_caption - sᴇᴛ ᴀ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ 💞
+•> /see_caption - sᴇᴇ ʏᴏᴜʀ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ 👀
+•> /del_caption - ᴅᴇʟᴇᴛᴇ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ 🗑
 
 Example:- /set_caption 📕 File Name: {filename}
 💾 Size: {filesize}
 ⏰ Duration: {duration}
 
 ✏️ <b><u>✧HOW TO RENAME A FILE✧</u></b>
-•> send any file and click rename option and type new file name and \n send select [ document, video, audio ] 
+•> Sᴇɴᴅ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ᴄʟɪᴄᴋ ʀᴇɴᴀᴍᴇ ᴏᴘᴛɪᴏɴ ᴀɴᴅ ᴛʏᴘᴇ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ \n sᴇɴᴅ sᴇʟᴇᴄᴛ [document, video, audio] 
 \n💌 ɴᴇᴇᴅ ᴀɴʏ ᴏᴛʜᴇʀ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ :- <a href=https://t.me/hddubhub4uhelp>🍂 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥</a>
 """
 
@@ -69,7 +69,7 @@ Example:- /set_caption 📕 File Name: {filename}
     DEV_TXT = """
 <b><u>🎭 ᴅᴇᴠʟᴏᴘᴇʀ sʜᴏʀᴛ ɴᴏᴛᴇ 🎭 </b></u> 
 
-➤ 💌 **ᴄᴏɴᴛᴀᴄᴛ** :-\n <a href=https://t.me/GlitchAssistantBot>**『**ᴀssɪsᴛᴀɴᴛ Bᴏᴛ**』**</a> | <a href=https://t.me/the_glitchs>『**ᴛʜᴇ_ɢʟɪᴛᴄʜs**』</a>
+➤ 💌 **ᴄᴏɴᴛᴀᴄᴛ** :-\n<a href=https://t.me/GlitchAssistantBot>**『**ᴀssɪsᴛᴀɴᴛ』****</a>|<a href=https://t.me/the_glitchs>『**ᴛʜᴇ_ɢʟɪᴛᴄʜs**』</a>
 \n➤ Hᴇʏ ʙᴜᴅᴅʏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɴᴀᴍᴇ & Sᴄʀɪᴘᴛ ʟɪᴋᴇ ᴛʜɪS ᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ ʙᴏᴛ ᴏʀ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ ʀᴇɢᴀʀᴅɪɴɢ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴏғ ᴘʏʀᴏɢʀᴀᴍ ʙᴏᴛs ᴏʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴜs ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ
- ᴀssɪsᴛᴀɴᴛ ʙᴏᴛ ᴅᴇᴀᴅ ⚰ ᴛʜᴇɴ ᴍsɢ ᴏɴ ᴛʜᴇ ɢʟɪᴛᴄʜs ᴍᴇɴᴛɪᴏɴᴇᴅ ᴀʙᴏᴠᴇ 📍
+ \nɪғ ᴀssɪsᴛᴀɴᴛ ʙᴏᴛ ᴅᴇᴀᴅ ⚰ ᴛʜᴇɴ ᴍsɢ ᴏɴ ᴛʜᴇ ɢʟɪᴛᴄʜs ᴍᴇɴᴛɪᴏɴᴇᴅ ᴀʙᴏᴠᴇ 📍
   """
