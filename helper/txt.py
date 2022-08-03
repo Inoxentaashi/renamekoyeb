@@ -61,8 +61,8 @@ Example:- /set_caption 📕 File Name: {filename}
 ⏰ Duration: {duration}
 
 ✏️ <b><u>HOW TO RENAME A FILE</u></b>
-•> send any file and click rename option and type new file name and \n send select [ document, video, audio ]👈 choice this.
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/PYRO_BOTZ_CHAT>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
+•> send any file and click rename option and type new file name and \n send select [ document, video, audio ] 
+ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/hddubhub4uhelp>🍂 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥</a>
 """
 
 #⚠️ don't remove our credits 🙏😢😢
