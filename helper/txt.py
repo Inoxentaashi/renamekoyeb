@@ -62,19 +62,14 @@ Example:- /set_caption 📕 File Name: {filename}
 
 ✏️ <b><u>HOW TO RENAME A FILE</u></b>
 •> send any file and click rename option and type new file name and \n send select [ document, video, audio ] 
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/hddubhub4uhelp>🍂 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥</a>
+💌 ɴᴇᴇᴅ ᴀɴʏ ᴏᴛʜᴇʀ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ :- <a href=https://t.me/hddubhub4uhelp>🍂 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥</a>
 """
 
 #⚠️ don't remove our credits 🙏😢😢
     DEV_TXT = """
-<b><u>Special Thanks & Developers</b></u> 
+<b><u>🎭 Lɪᴛᴛʟᴇ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ 🎭 </b></u> 
 
-» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>𝐏𝐘𝐑𝐎 𝐑𝐄𝐍𝐀𝐌𝐄 𝐁𝐎𝐓</a>
-» 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗘𝗣𝗟𝗢𝗬 : <a href=https://youtu.be/GfulqsSnTv4>MoTech Yt</a>
-
-• ❣️ <a href=https://github.com/lntechnical2>𝗟𝗡 𝗧𝗘𝗖𝗛𝗡𝗜𝗖</a>
-• ❣️ <a href=https://t.me/Mhd_rzn>𝗠𝗵𝗱_𝗿𝘇𝗻</a>
-• ❣️ <a href=https://youtu.be/GfulqsSnTv4>𝗠𝗼𝗧𝗲𝗰𝗵 𝗬𝗧</a>
-• ❣️ <a href=https://t.me/mr_MKN>𝗠𝗿.𝗠𝗞𝗡 𝗧𝗚</a>
-• ❣️ <a href=https://t.me/GitHub_noob>𝗚𝗶𝘁𝗛𝘂𝗯 𝗡𝗢𝗢𝗕</a>
-"""
+» 💌 ᴄᴏɴᴛᴀᴄᴛ : <a href=https://t.me/GlitchAssistantBot>**G̩̱ͩ̏͜ℓιтçђ ᴀssɪsᴛᴀɴᴛ❂**</a> | <a href=https://t.me/the_glitchs>༒**ᴛʜᴇ_ɢʟɪᴛᴄʜs**༒<a>
+» Hᴇʏ ʙᴜᴅᴅʏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɴᴀᴍᴇ & sᴄʀɪᴘᴛ ʟɪᴋᴇ ᴛʜɪs ᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ ʙᴏᴛ ᴏʀ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ ʀᴇɢᴀʀᴅɪɴɢ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴏғ ᴘʏʀᴏɢʀᴀᴍ ʙᴏᴛs ᴏʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴜs ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴠɪᴀ 
+  Iғ ᴀssɪsᴛᴀɴᴛ ʙᴏᴛ ᴅᴇᴀᴅ ⚰ ᴛʜᴇɴ ᴍsɢ ᴏɴ ᴛʜᴇ ɢʟɪᴛᴄʜs ᴍᴇɴᴛɪᴏɴᴇᴅ ᴀʙᴏᴠᴇ 📍
+  """
