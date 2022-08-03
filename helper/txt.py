@@ -67,7 +67,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 #⚠️ don't remove our credits 
     DEV_TXT = """
-<b><u>🎭 Lɪᴛᴛʟᴇ ᴅᴇSᴄʀɪᴘᴛɪᴏɴ 🎭 </b></u> 
+<b><u>🎭 ᴅᴇᴠʟᴏᴘᴇʀ sʜᴏʀᴛ ɴᴏᴛᴇ 🎭 </b></u> 
 
 ➤ 💌 **ᴄᴏɴᴛᴀᴄᴛ** :-\n <a href=https://t.me/GlitchAssistantBot>**『**ᴀssɪsᴛᴀɴᴛ Bᴏᴛ**』**</a> | <a href=https://t.me/the_glitchs>『**ᴛʜᴇ_ɢʟɪᴛᴄʜs**』</a>
 \n➤ Hᴇʏ ʙᴜᴅᴅʏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɴᴀᴍᴇ & Sᴄʀɪᴘᴛ ʟɪᴋᴇ ᴛʜɪS ᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ ʙᴏᴛ ᴏʀ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ ʀᴇɢᴀʀᴅɪɴɢ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴏғ ᴘʏʀᴏɢʀᴀᴍ ʙᴏᴛs ᴏʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴜs ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ
