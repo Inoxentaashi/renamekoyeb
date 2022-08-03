@@ -25,7 +25,7 @@ License Link : https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT/blob/main/LICEN
 
 class mr(object):
     PROGRESS_BAR = """\n
-╭━━━━❰✧ᴘʀᴏɢʀᴇSS ʙᴀʀ✧❱━➣
+╭━━━━❰✧ᴘʀᴏɢʀᴇss ʙᴀʀ✧❱━➣
 ┣⪼Fɪʟᴇ sɪᴢᴇ 🗂️ : {1} | {2}
 ┣⪼Dᴜʀᴀᴛɪᴏɴ ⏳️ : {0}%
 ┣⪼Sᴘᴇᴇᴅ 🚀 : {3}/s
@@ -40,8 +40,8 @@ class mr(object):
 ├🍂 Sᴜᴘᴘᴏʀᴛ : <a href=https://t.me/hddubhub4uhelp>〘 **Cʟɪᴄᴋ ʜᴇʀᴇ** 〙</a>
 ├📽 Mᴏᴠɪᴇɢʀᴏᴜᴘ : <a href=https://t.me/dubbedweb>〘 **Cʟɪᴄᴋ ʜᴇʀᴇ** 〙</a>
 ├📢 ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/hddubhub4u>〘 **Cʟɪᴄᴋ ʜᴇʀᴇ** 〙</a>
-├📈 Bᴏᴛs Sᴛᴀᴛᴜs : <a href=https://t.me/https://t.me/futurebackups/754>〘 **Cʟɪᴄᴋ ʜᴇʀᴇ** 〙</a>
-├📊 Pʏʀ ᴠᴇʀsɪᴏɴ : v3.6.8 [ ᗷᗴTᗩ ]              
+├📈 Bᴏᴛs Sᴛᴀᴛᴜs : <a href=https://t.me/futurebackups/754>〘 **Cʟɪᴄᴋ ʜᴇʀᴇ** 〙</a>
+├📊 Pʏʀo ᴠᴇʀsɪᴏɴ : v3.6.8 [ ᗷᗴTᗩ ]              
 ╰──────────────✧✧✧✧⍟
                                 """
     HELP_TXT = """
@@ -62,14 +62,14 @@ Example:- /set_caption 📕 File Name: {filename}
 
 ✏️ <b><u>✧HOW TO RENAME A FILE✧</u></b>
 •> send any file and click rename option and type new file name and \n send select [ document, video, audio ] 
-💌 ɴᴇᴇᴅ ᴀɴʏ ᴏᴛʜᴇʀ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ :- <a href=https://t.me/hddubhub4uhelp>🍂 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥</a>
+\n💌 ɴᴇᴇᴅ ᴀɴʏ ᴏᴛʜᴇʀ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ :- <a href=https://t.me/hddubhub4uhelp>🍂 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥</a>
 """
 
 #⚠️ don't remove our credits 
     DEV_TXT = """
 <b><u>🎭 Lɪᴛᴛʟᴇ ᴅᴇSᴄʀɪᴘᴛɪᴏɴ 🎭 </b></u> 
 
-➥ 💌 **ᴄᴏɴᴛᴀᴄᴛ** : <a href=https://t.me/GlitchAssistantBot>**『**via ᴀssɪsᴛᴀɴᴛ**』**</a> | <a href=https://t.me/the_glitchs>『**ᴛʜᴇ_ɢʟɪᴛᴄʜs**』</a>
-\n➥ Hᴇʏ ʙᴜᴅᴅʏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɴᴀᴍᴇ & Sᴄʀɪᴘᴛ ʟɪᴋᴇ ᴛʜɪS ᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ ʙᴏᴛ ᴏʀ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ ʀᴇɢᴀʀᴅɪɴɢ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴏғ ᴘʏʀᴏɢʀᴀᴍ ʙᴏᴛs ᴏʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴜs ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴠɪᴀ 
+➤ 💌 **ᴄᴏɴᴛᴀᴄᴛ** :-\n <a href=https://t.me/GlitchAssistantBot>**『**ᴀssɪsᴛᴀɴᴛ Bᴏᴛ**』**</a>  |  <a href=https://t.me/the_glitchs>『**ᴛʜᴇ_ɢʟɪᴛᴄʜs**』</a>
+\n➤ Hᴇʏ ʙᴜᴅᴅʏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɴᴀᴍᴇ & Sᴄʀɪᴘᴛ ʟɪᴋᴇ ᴛʜɪS ᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ ʙᴏᴛ ᴏʀ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ ʀᴇɢᴀʀᴅɪɴɢ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴏғ ᴘʏʀᴏɢʀᴀᴍ ʙᴏᴛs ᴏʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴜs ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴠɪᴀ 
   Iғ ᴀssɪsᴛᴀɴᴛ ʙᴏᴛ ᴅᴇᴀᴅ ⚰ ᴛʜᴇɴ ᴍsɢ ᴏɴ ᴛʜᴇ ɢʟɪᴛᴄʜs ᴍᴇɴᴛɪᴏɴᴇᴅ ᴀʙᴏᴠᴇ 📍
   """
