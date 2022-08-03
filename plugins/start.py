@@ -45,7 +45,8 @@ async def start(client, message):
     insert(int(message.chat.id))
     await message.reply_photo(
        photo=START_PIC,
-       caption=f"""🌹 Hᴇʏ ʙᴀʙʏ {message.from_user.mention} \n𝙸'𝚖 𝙰 𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛 𝙱𝙾𝚃 𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 & 𝙲𝚞𝚜𝚝𝚘𝚖 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝚂𝚞𝚙𝚙𝚘𝚛𝚝! """,
+       caption=f"""🌹 Hᴇʏ ʙᴀʙʏ {message.from_user.mention} \n**I'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇ + ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ Sᴜᴘᴘᴏʀᴛ** ! 
+       **Pᴏᴡᴇʀᴇᴅ ʙʏ** ❗ **@robo_glitch**""",
        reply_markup=InlineKeyboardMarkup( [[
            InlineKeyboardButton("😈 Dᴇᴠᴇʟᴏᴘᴇʀ 😈", callback_data='dev')
            ],[
@@ -104,9 +105,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ 𝚂𝙾𝚄𝚁𝙲𝙴", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               InlineKeyboardButton("📽 Mᴏᴠɪᴇs ɢʀᴏᴜᴘ 👥", url="https://t.me/dubbedweb")
                ],[
-               InlineKeyboardButton("❤️‍🔥 𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴  ❤️‍🔥", url='https://youtu.be/BiC66uFJsio')
+               InlineKeyboardButton("📈 Bᴏᴛs ʟɪᴠᴇ sᴛᴀᴛᴜs 📍", url='https://t.me/futurebackups/754')
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
