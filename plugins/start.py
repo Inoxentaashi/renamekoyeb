@@ -31,13 +31,13 @@ from helper.txt import mr
 from helper.database import insert 
 from helper.utils import not_subscribed 
 
-FLOOD = int(environ.get("FLOOD", "10"))
+FLOOD = int(environ.get("FLOOD", "30"))
 START_PIC = environ.get("START_PIC", "https://telegra.ph/file/04d08445dce68c9a57b25.jpg")
 
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def is_not_subscribed(client, message):
     buttons = [[ InlineKeyboardButton(text="📢〘 Jᴏɪɴ Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 〙📢", url=client.invitelink) ]]
-    text = "**⚠️ Sᴏʀʀʏ ʙʀᴏ,Yᴏᴜ ᴅɪᴅɴ'ᴛ Jᴏɪɴᴇᴅ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ Jᴏɪɴ ɴᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ᴀɢᴀɪɴ 😟**"
+    text = "**⚠️ Sᴏʀʀʏ ʙᴀʙʏ Yᴏᴜ ᴅɪᴅɴ'ᴛ Jᴏɪɴᴇᴅ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ Jᴏɪɴ ɴᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ᴀɢᴀɪɴ 😟**"
     await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
            
 @Client.on_message(filters.private & filters.command(["start"]))
@@ -50,10 +50,10 @@ async def start(client, message):
            InlineKeyboardButton("😈 Dᴇᴠᴇʟᴏᴘᴇʀ 😈", callback_data='dev')
            ],[
            InlineKeyboardButton('🔮 ᴏᴛʜᴇʀ ʙᴏᴛs 🔮', url='https://t.me/robo_glitch'),
-           InlineKeyboardButton('🍂 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/hddubhub4uhelp')
+           InlineKeyboardButton('🍂 Sᴜᴘᴘᴏʀᴛ 🦋', url='https://t.me/hddubhub4uhelp')
            ],[
            InlineKeyboardButton('🏆 Aʙᴏᴜᴛ', callback_data='about'),
-           InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help')
+           InlineKeyboardButton('📮 Hᴇʟᴘ', callback_data='help')
            ]]
           )
        )
@@ -91,10 +91,10 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("😈 Dᴇᴠᴇʟᴏᴘᴇʀ 😈", callback_data='dev')                
                 ],[
                 InlineKeyboardButton('🔮 ᴏᴛʜᴇʀ ʙᴏᴛs 🔮', url='https://t.me/robo_glitch'),
-                InlineKeyboardButton('🍂 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/hddubhub4uhelp')
+                InlineKeyboardButton('🍂 Sᴜᴘᴘᴏʀᴛ 🦋', url='https://t.me/hddubhub4uhelp')
                 ],[
                 InlineKeyboardButton('🏆 Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help')
+                InlineKeyboardButton('📮 Hᴇʟᴘ', callback_data='help')
                 ]]
                 )
             )
@@ -133,7 +133,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("📽 Mᴏᴠɪᴇs ɢʀᴏᴜᴘ 👥", url="https://t.me/GlitchAutoCaptionBot")
+               InlineKeyboardButton("📽 Mᴏᴠɪᴇs ɢʀᴏᴜᴘ 👥", url="https://t.me/dubbedweb")
                ],[
                InlineKeyboardButton("📁 ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 📁", url="https://t.me/CopyrightFreeBot")
                ],[
