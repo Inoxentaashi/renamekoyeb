@@ -25,16 +25,16 @@ License Link : https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT/blob/main/LICEN
 
 class mr(object):
     PROGRESS_BAR = """\n
-╭━━━━❰✧ᴘʀᴏɢʀᴇss ʙᴀʀ✧❱━➣
+╭━━━━❰ ✧ᴘʀᴏɢʀᴇss ʙᴀʀ✧ ❱━➣
 ┣⪼Fɪʟᴇ sɪᴢᴇ 🗂️ : {1} | {2}
 ┣⪼Dᴜʀᴀᴛɪᴏɴ ⏳️ : {0}%
-┣⪼Sᴘᴇᴇᴅ 🚀 : {3}/s
+┣⪼Sᴘᴇᴇᴅ   🚀 : {3}/s
 ┣⪼Tɪᴍᴇ ʟᴇғᴛ ⏱️ : {4}
-╰━━━━━━━━━━━━━━━✧✧➣ """
+╰━━━━━━━━━━━━━━━✧✧✧✧➣ """
 
     ABOUT_TXT = """
 ╭───────────✧✧✧✧✧✧⍟
-├🤖 ᴍʏ ɴᴀᴍᴇ : <b>{}</b>
+├🤖 ᴍʏ ɴᴀᴍᴇ :  <b>{}</b>
 ├🔮 ᴏᴛʜᴇʀ ʙᴏᴛS : <a href=https://t.me/robo_glitch>〘 **Cʟɪᴄᴋ ʜᴇʀᴇ** 〙</a> 
 ├👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/the_glitchs>〘 **Cʟɪᴄᴋ ʜᴇʀᴇ** 〙</a>
 ├🍂 Sᴜᴘᴘᴏʀᴛ : <a href=https://t.me/hddubhub4uhelp>〘 **Cʟɪᴄᴋ ʜᴇʀᴇ** 〙</a>
@@ -69,7 +69,7 @@ Example:- /set_caption 📕 File Name: {filename}
     DEV_TXT = """
 <b><u>🎭 ᴅᴇᴠʟᴏᴘᴇʀ sʜᴏʀᴛ ɴᴏᴛᴇ 🎭 </b></u> 
 
-➤ 💌 **ᴄᴏɴᴛᴀᴄᴛ** :-\n<a href=https://t.me/GlitchAssistantBot>**『**ᴀssɪsᴛᴀɴᴛ』****</a>|<a href=https://t.me/the_glitchs>『**ᴛʜᴇ_ɢʟɪᴛᴄʜs**』</a>
+➤ 💌 **ᴄᴏɴᴛᴀᴄᴛ** :-\n<a href=https://t.me/GlitchAssistantBot>**『**ᴀssɪsᴛᴀɴᴛ**』****</a>|<a href=https://t.me/the_glitchs>『**ᴛʜᴇ_ɢʟɪᴛᴄʜs**』</a>
 \n➤ Hᴇʏ ʙᴜᴅᴅʏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɴᴀᴍᴇ & Sᴄʀɪᴘᴛ ʟɪᴋᴇ ᴛʜɪS ᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ ʙᴏᴛ ᴏʀ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ ʀᴇɢᴀʀᴅɪɴɢ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴏғ ᴘʏʀᴏɢʀᴀᴍ ʙᴏᴛs ᴏʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴜs ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ
  \nɪғ ᴀssɪsᴛᴀɴᴛ ʙᴏᴛ ᴅᴇᴀᴅ ⚰ ᴛʜᴇɴ ᴍsɢ ᴏɴ ᴛʜᴇ ɢʟɪᴛᴄʜs ᴍᴇɴᴛɪᴏɴᴇᴅ ᴀʙᴏᴠᴇ 📍
   """
