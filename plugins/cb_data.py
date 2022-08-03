@@ -73,7 +73,7 @@ async def doc(bot,update):
          img = Image.open(ph_path)
          img.resize((320, 320))
          img.save(ph_path, "JPEG")
-     await ms.edit("⏫ Tʀʏɪɴɢ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⏫")
+     await ms.edit("⏬ Tʀʏɪɴɢ ᴛᴏ ᴜᴘʟᴏᴀᴅᴇ ⏬")
      c_time = time.time() 
      try:
         if type == "document":
