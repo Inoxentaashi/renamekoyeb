@@ -45,8 +45,7 @@ async def start(client, message):
     insert(int(message.chat.id))
     await message.reply_photo(
        photo=START_PIC,
-       caption=f"""🌹 Hᴇʏ ʙᴀʙʏ {message.from_user.mention} \n**I'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇ + ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ Sᴜᴘᴘᴏʀᴛ** 
-       **Pᴏᴡᴇʀᴇᴅ ʙʏ** ❗ **@robo_glitch**""",
+       caption=f"""🌹 Hᴇʏ ʙᴀʙʏ {message.from_user.mention} \n**I'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇ + ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ Sᴜᴘᴘᴏʀᴛ** Pᴏᴡᴇʀᴇᴅ ʙʏ** ❗ **@robo_glitch**""",
        reply_markup=InlineKeyboardMarkup( [[
            InlineKeyboardButton("😈 Dᴇᴠᴇʟᴏᴘᴇʀ 😈", callback_data='dev')
            ],[
@@ -68,15 +67,15 @@ async def rename_start(client, message):
     filesize = humanize.naturalsize(file.file_size) 
     fileid = file.file_id
     try:
-        text = f"""**__🙂 Wʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ᴅᴏ ᴡɪᴛʜ ᴛʜɪs ғɪʟᴇ.❓__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("📝 Rᴇɴᴀᴍᴇ 📁", callback_data="rename") ],
+        text = f"""**__💋 ʙᴀʙʏ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ᴛʜɪs ғɪʟᴇ ❓__**\n\n**Fɪʟᴇ Nᴀᴍᴇ ⪼** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
+        buttons = [[ InlineKeyboardButton("📝 Yᴇᴀʜ Rᴇɴᴀᴍᴇ 📁", callback_data="rename") ],
                    [ InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐 ", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
         await sleep(FLOOD)
     except FloodWait as e:
         await sleep(e.x)
-        text = f"""**__🙂 Wʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ᴅᴏ ᴡɪᴛʜ ᴛʜɪs ғɪʟᴇ.❓__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("📝 Rᴇɴᴀᴍᴇ 📁", callback_data="rename") ],
+        text = f"""**__💋 ʙᴀʙʏ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ᴛʜɪs ғɪʟᴇ ❓__**\n\n**Fɪʟᴇ Nᴀᴍᴇ ⪼** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
+        buttons = [[ InlineKeyboardButton("📝 Yᴇᴀʜ Rᴇɴᴀᴍᴇ 📁", callback_data="rename") ],
                    [ InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except:
@@ -87,8 +86,7 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""🌹 Hᴇʏ ʙᴀʙʏ {query.from_user.mention} \n**I'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇ + ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ Sᴜᴘᴘᴏʀᴛ** ! 
-            **Pᴏᴡᴇʀᴇᴅ ʙʏ** ❗ **@ʀᴏʙᴏ_ɢʟɪᴛᴄʜ**""",
+            text=f"""🌹 Hᴇʏ ʙᴀʙʏ {query.from_user.mention} \n**I'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇ + ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ Sᴜᴘᴘᴏʀᴛ**! **Pᴏᴡᴇʀᴇᴅ ʙʏ** ❗ **@ʀᴏʙᴏ_ɢʟɪᴛᴄʜ**""",
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("😈 Dᴇᴠᴇʟᴏᴘᴇʀ 😈", callback_data='dev')                
                 ],[
@@ -111,7 +109,7 @@ async def cb_handler(client, query: CallbackQuery):
                InlineKeyboardButton("📈 Bᴏᴛs ʟɪᴠᴇ sᴛᴀᴛᴜs 📍", url='https://t.me/futurebackups/754')
                ],[
                InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data = "close"),
-               InlineKeyboardButton("◂  Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton("◁ Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
@@ -123,10 +121,10 @@ async def cb_handler(client, query: CallbackQuery):
                #⚠️ don't change source code & source link ⚠️ #
                InlineKeyboardButton("🔱 ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ 🔱", url="https://t.me/GlitchAutoCaptionBot")
                ],[
-               InlineKeyboardButton("💀ᴇᴠɪʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ💀", url="https://t.me/EvilGroupManagerBot")
+               InlineKeyboardButton("💀 ᴇᴠɪʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ 💀", url="https://t.me/EvilGroupManagerBot")
                ],[
                InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data = "close"),
-               InlineKeyboardButton("◂  Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton("◁ Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
@@ -140,7 +138,7 @@ async def cb_handler(client, query: CallbackQuery):
                InlineKeyboardButton("📁 ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 📁", url="https://t.me/CopyrightFreeBot")
                ],[
                InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data = "close"),
-               InlineKeyboardButton("◂  Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton("◁ Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
