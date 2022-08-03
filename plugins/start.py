@@ -38,7 +38,7 @@ START_PIC = environ.get("START_PIC", "https://telegra.ph/file/04d08445dce68c9a57
 async def is_not_subscribed(client, message):
     buttons = [[ InlineKeyboardButton(text="📢〘 Jᴏɪɴ Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 〙📢", url=client.invitelink) ]]
     text = "**⚠️ Sᴏʀʀʏ ʙʀᴏ,Yᴏᴜ ᴅɪᴅɴ'ᴛ Jᴏɪɴᴇᴅ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ Jᴏɪɴ ɴᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ᴀɢᴀɪɴ 😟**"
-    await message.reply_photo(photo="https://telegra.ph/file/f70ed844978f94eabb728.jpg", text=text, reply_markup=InlineKeyboardMarkup(buttons))
+    await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
            
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client, message):
@@ -68,14 +68,14 @@ async def rename_start(client, message):
     filesize = humanize.naturalsize(file.file_size) 
     fileid = file.file_id
     try:
-        text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
+        text = f"""**__🙂 Wʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ᴅᴏ ᴡɪᴛʜ ᴛʜɪs ғɪʟᴇ.❓__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
         buttons = [[ InlineKeyboardButton("📝 Rᴇɴᴀᴍᴇ 📁", callback_data="rename") ],
                    [ InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐 ", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
         await sleep(FLOOD)
     except FloodWait as e:
         await sleep(e.x)
-        text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
+        text = f"""**__🙂 Wʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ᴅᴏ ᴡɪᴛʜ ᴛʜɪs ғɪʟᴇ.❓__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
         buttons = [[ InlineKeyboardButton("📝 Rᴇɴᴀᴍᴇ 📁", callback_data="rename") ],
                    [ InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
@@ -105,12 +105,12 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("📽 Mᴏᴠɪᴇs ɢʀᴏᴜᴘ 👥", url="https://t.me/dubbedweb")
+               InlineKeyboardButton("📽 ᴀʟʟ ᴍᴏᴠɪᴇ's ʙᴏᴛ 🎞", url="https://t.me/OlMoviesBot")
                ],[
                InlineKeyboardButton("📈 Bᴏᴛs ʟɪᴠᴇ sᴛᴀᴛᴜs 📍", url='https://t.me/futurebackups/754')
                ],[
                InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data = "close"),
-               InlineKeyboardButton("◀️ Sᴛᴀʀᴛ", callback_data = "start")
+               InlineKeyboardButton("◂ Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
@@ -120,12 +120,12 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("📽 Mᴏᴠɪᴇs ɢʀᴏᴜᴘ 👥", url="https://github.com/TEAM-PYRO-BOTZ/dubbedweb")
+               InlineKeyboardButton("🔱 ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ 🔱", url="https://t.me/GlitchAutoCaptionBot")
                ],[
-               InlineKeyboardButton("📈 Bᴏᴛs ʟɪᴠᴇ sᴛᴀᴛᴜs 📍", url="https://t.me/futurebackups/754")
+               InlineKeyboardButton("💀ᴇᴠɪʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ💀", url="https://t.me/EvilGroupManagerBot")
                ],[
                InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data = "close"),
-               InlineKeyboardButton("◀️ Sᴛᴀʀᴛ", callback_data = "start")
+               InlineKeyboardButton("◂ Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
@@ -134,12 +134,12 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("📽 Mᴏᴠɪᴇs ɢʀᴏᴜᴘ 👥", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               InlineKeyboardButton("📽 Mᴏᴠɪᴇs ɢʀᴏᴜᴘ 👥", url="https://t.me/GlitchAutoCaptionBot")
                ],[
-               InlineKeyboardButton("📈 Bᴏᴛs ʟɪᴠᴇ sᴛᴀᴛᴜs 📍", url="https://t.me/futurebackups/754")
+               InlineKeyboardButton("📁 ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 📁", url="https://t.me/CopyrightFreeBot")
                ],[
                InlineKeyboardButton("🔐 Cʟᴏsᴇ 🔐", callback_data = "close"),
-               InlineKeyboardButton("◀️ Sᴛᴀʀᴛ", callback_data = "start")
+               InlineKeyboardButton("◂ Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
