@@ -87,8 +87,8 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""🌹 Hᴇʏ ʙᴀʙʏ {query.from_user.mention} \nI'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇ + ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ Sᴜᴘᴘᴏʀᴛ ! 
-            Pᴏᴡᴇʀᴇᴅ ʙʏ ❗ @ʀᴏʙᴏ_ɢʟɪᴛᴄʜ""",
+            text=f"""🌹 Hᴇʏ ʙᴀʙʏ {query.from_user.mention} \n**I'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇ + ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ Sᴜᴘᴘᴏʀᴛ** ! 
+            **Pᴏᴡᴇʀᴇᴅ ʙʏ** ❗ **@ʀᴏʙᴏ_ɢʟɪᴛᴄʜ**""",
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("😈 Dᴇᴠᴇʟᴏᴘᴇʀ 😈", callback_data='dev')                
                 ],[
